@@ -29,7 +29,7 @@ So for example you send arg1 and arg2, you will be able to use {{arg1}} and {{ar
 
 | Name                | Description                                                                           | Type     | sample   |
 | ------------------- | ------------------------------------------------------------------------------------- | -------- | -------- |
-| the query(ies) name | The query you sent                                                                    | String   |          |
+| *                   | The query you sent                                                                    | String   |          |
 
 As describe above, return values are all the input values.
 
