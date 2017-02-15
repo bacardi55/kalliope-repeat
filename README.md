@@ -16,9 +16,9 @@ Make kalliope say what you want
 
 ## Options
 
-| parameter  | required | default   | choices | comment                                                                                    |
-|------------|----------|-----------|---------|--------------------------------------------------------------------------------------------|
-|            | no       |           |         |                                                                                            |
+| parameter  | required | default   | choices  | comment                                                                                    |
+|------------|----------|-----------|----------|--------------------------------------------------------------------------------------------|
+| *          | Yes      |           | String* * | Your incoming query                                                                        |
 
 
 You can put as many parameters that you want, the neurons will simply send them back to you.
@@ -27,9 +27,9 @@ So for example you send arg1 and arg2, you will be able to use {{arg1}} and {{ar
 
 ## Return Values
 
-| Name         | Description                                                                           | Type     | sample   |
-| ------------ | ------------------------------------------------------------------------------------- | -------- | -------- |
-|              |                                                                                       |          |          |
+| Name                | Description                                                                           | Type     | sample   |
+| ------------------- | ------------------------------------------------------------------------------------- | -------- | -------- |
+| the query(ies) name | The query you sent                                                                    | String   |          |
 
 As describe above, return values are all the input values.
 
