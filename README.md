@@ -50,6 +50,7 @@ Play a playlist by giving its name to kalliope
             - "{{ query }}"
 ```
 
+```yaml
   - name: "Say-hello-to"
     signals:
       - order: "say hi to {{ name }}"
@@ -61,6 +62,7 @@ Play a playlist by giving its name to kalliope
             - "Hi {{ name }}, and welcome"
 ```
 
+```yaml
   - name: "Repeat-via-api"
     signals:
       - order: "api-repeat-cmd {{ query }}"
@@ -69,7 +71,7 @@ Play a playlist by giving its name to kalliope
           args:
             - query
           say_template:
-- "{{ query }}"
+      - "{{ query }}"
 ```
 
 ## Template example
