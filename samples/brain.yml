@@ -1,0 +1,31 @@
+---
+  - name: "Repeat"
+    signals:
+      - order: "repeat after me {{ query }}"
+    neurons:
+      - repeat:
+          args:
+            - query
+          say_template:
+            - "{{ query }}"
+
+  - name: "Say-hello-to"
+    signals:
+      - order: "say hi to {{ query }}"
+    neurons:
+      - repeat:
+          args:
+            - query
+          say_template:
+            - "Hi {{ query }}, and welcome"
+
+  - name: "Repeat-via-api"
+    signals:
+      - order: "api-repeat-cmd {{ query }}"
+    neurons:
+      - repeat:
+          args:
+            - query
+          say_template:
+            - "{{ query }}"
+
