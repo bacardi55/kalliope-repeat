@@ -71,7 +71,7 @@ Play a playlist by giving its name to kalliope
           args:
             - query
           say_template:
-      - "{{ query }}"
+            - "{{ query }}"
 ```
 
 ## Template example
