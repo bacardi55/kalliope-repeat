@@ -80,6 +80,6 @@ Play a playlist by giving its name to kalliope
 
 see more example in the [sample brain file](https://github.com/bacardi55/kalliope-repeat/blob/master/samples/brain.yml)
 
-
-* [my posts about kalliope](http://bacardi55.org/en/term/kalliope)
+* [An example of use of thie neuron](http://bacardi55.org/2017/02/16/kalliope-acting-as-a-reminder.html)
+* [my posts about kalliope](http://bacardi55.org/kalliope.html)
 
