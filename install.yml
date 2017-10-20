@@ -2,7 +2,7 @@
   hosts: localhost
   gather_facts: no
   connection: local
-  become: true
+  become: false
 
   tasks:
     - name: "Install pip dependencies"
