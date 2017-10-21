@@ -44,8 +44,7 @@ Play a playlist by giving its name to kalliope
       - order: "repeat after me {{ query }}"
     neurons:
       - repeat:
-          args:
-            - query
+          query: "{{query}}"
           say_template:
             - "{{ query }}"
 ```
@@ -56,8 +55,7 @@ Play a playlist by giving its name to kalliope
       - order: "say hi to {{ name }}"
     neurons:
       - repeat:
-          args:
-            - name
+          name: "{{name}}"
           say_template:
             - "Hi {{ name }}, and welcome"
 ```
@@ -68,8 +66,7 @@ Play a playlist by giving its name to kalliope
       - order: "api-repeat-cmd {{ query }}"
     neurons:
       - repeat:
-          args:
-            - query
+          query: "{{query}}"
           say_template:
             - "{{ query }}"
 ```
